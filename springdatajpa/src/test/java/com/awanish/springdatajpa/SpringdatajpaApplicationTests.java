@@ -14,21 +14,22 @@ class SpringdatajpaApplicationTests {
 	@Autowired
 	StudentRepo studentRepo;
 
+	// this method is used to save the data into the h2 database
 	@Test
 	public void testSaveData() {
-		
+
 		Student student = new Student();
-		
+
 		student.setId(1);
 		student.setName("Mark");
 		student.setTestScore(100);
-		
+
 		studentRepo.save(student);
-		
+
 		Student studentData = studentRepo.findById(1).get();
-		
+
 		assertNotNull(studentData);
-		
+
 	}
 
 }
