@@ -17,7 +17,7 @@ class SpringdatajpaApplicationTests {
 	// this method is used to save the data into the h2 database
 	@Test
 	public void testSaveData() {
-
+        //Making object of student class to set the field data
 		Student student = new Student();
 
 		student.setId(1);
@@ -25,9 +25,9 @@ class SpringdatajpaApplicationTests {
 		student.setTestScore(100);
 
 		studentRepo.save(student);
-
+        //this is used to fetch the data from database by id
 		Student studentData = studentRepo.findById(1).get();
-
+        
 		assertNotNull(studentData);
 
 	}
