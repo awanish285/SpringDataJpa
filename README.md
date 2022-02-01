@@ -65,3 +65,8 @@ In Hibernate uses Session for handling the persistence of data.
 JDBC: JDBC stands for Java Database Connectivity. It is a java application programming interface to provide a connection between the Java programming language and a wide range of databases (i.e), 
 it establishes a link between the two so that a programmer could send data from Java code and store it in the database for future use.
 =============================================================================================================================================================================================================
+
+Hibernate: Hibernate is an open-source, non-invasive, light-weight java ORM(Object-relational mapping) framework to develop objects which are independent of the database software and make independent persistence logic in all JAVA, JEE. 
+It simplifies the interaction of java applications with databases. Hibernate is an implementation of JPA(Java Persistence API).
+
+====================================================================================================================================================================================================================================================
