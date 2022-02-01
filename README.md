@@ -84,6 +84,8 @@ Hibernate:
 1) Hibernate maps the object model’s data to the schema of the database itself with the help of annotations.
 2) Hibernate uses HQL (Hibernate Query Language) which is similar to SQL but understands object-oriented concepts like inheritance, association etc.
 3) Whereas Hibernate manages the exceptions itself by marking them as unchecked.
+4) Whereas Hibernate is database independent and same code can work for many databases with minor changes.
+5) Associations like one-to-one, one-to-many, many-to-one, and many-to-many can be acquired easily with the help of annotations.
 
 
 ============================================================================================================================================================================================================================================================
