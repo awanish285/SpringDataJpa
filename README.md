@@ -70,3 +70,11 @@ Hibernate: Hibernate is an open-source, non-invasive, light-weight java ORM(Obje
 It simplifies the interaction of java applications with databases. Hibernate is an implementation of JPA(Java Persistence API).
 
 ====================================================================================================================================================================================================================================================
+JDBC:
+
+1) In JDBC, one needs to write code to map the object model’s data representation to the schema of the relational model.
+2) JDBC enables developers to create queries and update data to a relational database using the Structured Query Language (SQL).
+3) JDBC code needs to be written in a try catch block as it throws checked exception(SQLexception).
+4) JDBC is database dependent i.e. one needs to write different codes for different database.
+
+=========================================================================================================================================================================================================================================================
