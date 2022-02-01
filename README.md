@@ -76,5 +76,14 @@ JDBC:
 2) JDBC enables developers to create queries and update data to a relational database using the Structured Query Language (SQL).
 3) JDBC code needs to be written in a try catch block as it throws checked exception(SQLexception).
 4) JDBC is database dependent i.e. one needs to write different codes for different database.
+5) Creating associations between relations is quite hard in JDBC.
 
 =========================================================================================================================================================================================================================================================
+Hibernate: 
+
+1) Hibernate maps the object model’s data to the schema of the database itself with the help of annotations.
+2) Hibernate uses HQL (Hibernate Query Language) which is similar to SQL but understands object-oriented concepts like inheritance, association etc.
+3) Whereas Hibernate manages the exceptions itself by marking them as unchecked.
+
+
+============================================================================================================================================================================================================================================================
