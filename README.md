@@ -19,20 +19,21 @@ Git
 
 #Description about JPA
 
-What is JPA?
-Spring Boot JPA is a Java specification for managing relational data in Java applications. 
-It allows us to access and persist data between Java object/ class and relational database. 
-JPA follows Object-Relation Mapping (ORM). It is a set of interfaces. 
-It also provides a runtime EntityManager API for processing queries and transactions on the objects against the database. 
-It uses a platform-independent object-oriented query language JPQL (Java Persistent Query Language).
+#What is JPA?
+
+1) Spring Boot JPA is a Java specification for managing relational data in Java applications. 
+2) It allows us to access and persist data between Java object/ class and relational database. 
+3) JPA follows Object-Relation Mapping (ORM). It is a set of interfaces. 
+4) It also provides a runtime EntityManager API for processing queries and transactions on the objects against the database. 
+5) It uses a platform-independent object-oriented query language JPQL (Java Persistent Query Language).
 
 
-In the context of persistence, it covers three areas:
+#In the context of persistence, it covers three areas:
 
-The Java Persistence API
-Object-Relational metadata
-The API itself, defined in the persistence package
-JPA is not a framework. It defines a concept that can be implemented by any framework.
+1) The Java Persistence API
+2) Object-Relational metadata
+3) The API itself, defined in the persistence package
+4) JPA is not a framework. It defines a concept that can be implemented by any framework.
 
 
 
@@ -70,7 +71,7 @@ Hibernate: Hibernate is an open-source, non-invasive, light-weight java ORM(Obje
 It simplifies the interaction of java applications with databases. Hibernate is an implementation of JPA(Java Persistence API).
 
 ====================================================================================================================================================================================================================================================
-JDBC:
+#JDBC:
 
 1) In JDBC, one needs to write code to map the object model’s data representation to the schema of the relational model.
 2) JDBC enables developers to create queries and update data to a relational database using the Structured Query Language (SQL).
@@ -79,7 +80,7 @@ JDBC:
 5) Creating associations between relations is quite hard in JDBC.
 
 =========================================================================================================================================================================================================================================================
-Hibernate: 
+#Hibernate: 
 
 1) Hibernate maps the object model’s data to the schema of the database itself with the help of annotations.
 2) Hibernate uses HQL (Hibernate Query Language) which is similar to SQL but understands object-oriented concepts like inheritance, association etc.
