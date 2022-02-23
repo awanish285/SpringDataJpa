@@ -37,11 +37,11 @@ Git
 
 
 
-Why should we use JPA?
-JPA is simpler, cleaner, and less labor-intensive than JDBC, SQL, and hand-written mapping. 
-JPA is suitable for non-performance oriented complex applications. 
-The main advantage of JPA over JDBC is that, in JPA, data is represented by objects and classes while in JDBC data is represented by tables and records. 
-It uses POJO to represent persistent data that simplifies database programming.
+#Why should we use JPA?
+1) JPA is simpler, cleaner, and less labor-intensive than JDBC, SQL, and hand-written mapping. 
+2) JPA is suitable for non-performance oriented complex applications. 
+3) The main advantage of JPA over JDBC is that, in JPA, data is represented by objects and classes while in JDBC data is represented by tables and records. 
+4) It uses POJO to represent persistent data that simplifies database programming.
 
 
 JPA	
