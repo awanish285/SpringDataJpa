@@ -52,14 +52,14 @@ Git
 5) It is implemented in various ORM tools like Hibernate, EclipseLink, etc.	
 6) JPA uses EntityManager for handling the persistence of data.
 
-Hibernate
+#Hibernate
 
-Hibernate is an ORM framework that deals with data persistence.
-It provides implementation classes.
-It uses its own query language called HQL (Hibernate Query Language).
-It is defined in org.hibernate package.
-Hibernate is the provider of JPA.
-In Hibernate uses Session for handling the persistence of data.
+1) Hibernate is an ORM framework that deals with data persistence.
+2) It provides implementation classes.
+3) It uses its own query language called HQL (Hibernate Query Language).
+4) It is defined in org.hibernate package.
+5) Hibernate is the provider of JPA.
+6) In Hibernate uses Session for handling the persistence of data.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
