@@ -44,13 +44,13 @@ Git
 4) It uses POJO to represent persistent data that simplifies database programming.
 
 
-JPA	
-JPA is a Java specification for mapping relation data in Java application.	
-JPA does not provide any implementation classes.	
-It uses platform-independent query language called JPQL (Java Persistence Query Language).
-It is defined in javax.persistence package.	
-It is implemented in various ORM tools like Hibernate, EclipseLink, etc.	
-JPA uses EntityManager for handling the persistence of data.
+#JPA	
+1) JPA is a Java specification for mapping relation data in Java application.	
+2) JPA does not provide any implementation classes.	
+3) It uses platform-independent query language called JPQL (Java Persistence Query Language).
+4) It is defined in javax.persistence package.	
+5) It is implemented in various ORM tools like Hibernate, EclipseLink, etc.	
+6) JPA uses EntityManager for handling the persistence of data.
 
 Hibernate
 
