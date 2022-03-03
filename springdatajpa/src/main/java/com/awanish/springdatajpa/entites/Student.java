@@ -2,6 +2,7 @@ package com.awanish.springdatajpa.entites;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+//Entity Class
 
 @Entity
 public class Student {
