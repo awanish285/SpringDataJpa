@@ -27,6 +27,7 @@ Git
 4) It also provides a runtime EntityManager API for processing queries and transactions on the objects against the database. 
 5) It uses a platform-independent object-oriented query language JPQL (Java Persistent Query Language).
 
+====================================================================================================================================================================
 
 #In the context of persistence, it covers three areas:
 
@@ -42,7 +43,7 @@ Git
 2) JPA is suitable for non-performance oriented complex applications. 
 3) The main advantage of JPA over JDBC is that, in JPA, data is represented by objects and classes while in JDBC data is represented by tables and records. 
 4) It uses POJO to represent persistent data that simplifies database programming.
-
+=====================================================================================================================================================================
 
 #JPA	
 1) JPA is a Java specification for mapping relation data in Java application.	
@@ -51,7 +52,7 @@ Git
 4) It is defined in javax.persistence package.	
 5) It is implemented in various ORM tools like Hibernate, EclipseLink, etc.	
 6) JPA uses EntityManager for handling the persistence of data.
-
+===============================================================================================================================================================================
 #Hibernate
 
 1) Hibernate is an ORM framework that deals with data persistence.
